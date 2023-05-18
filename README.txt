@@ -1,3 +1,3 @@
 18.05.2023:
 
-projeyi GİT uyumlu yapıp yapmadığımı test etmek için oluşturulmuştur.
+created for testing the project if I could make it available for GIT or not.
