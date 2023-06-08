@@ -40,19 +40,31 @@
             </nav>
 
             <article id="icerik">
-                <h1 class="baslik">Kısaca Ben</h1>
-                <p class="metin">2002 yılında Çanakkale'nin Ezine ilçesinde doğdum.
-                    Çocukluğum yine Çanakkale'nin Bayramiç ilçesinde geçti.
-                    Daha sonra Merkez ilçesine taşındık ve lise eğitimimi burada tamamladım. Herkes gibi benim de hayatım
-                    Koronavirüs pandemisi sebebiyle derinden sarsıldı. Üniversite sınavında Bandırma Onyedi Eylül Üniversitesi'nde
-                    Bilgisayar Mühendisliği'ni kazandım. Şu anda 2.sınıfı tamamlamak üzereyim. Kariyerimde hedefim Java, C++,
-                    C# gibi bir dilde ustalaşıp; Oyun geliştiriciliği, yazılım geliştiriciliği gibi üretken bir yolda ilerlemek.
-                    <br><br> Ayrıca 2019 yılının sonundan bu yana hayatıma eşlik eden, sokaktan sahiplendiğim 
-                    bir kedim vardı. Ne yazık ki 4 Haziran 2023 tarihinde vefat etti. Henüz 4 yaşına yeni girecekti. Bir sayfayı onun
-                    anısına ayırıyorum. Umarım gittiği yerde mutludur.
+                <h1 class="baslik">Aynalı Çarşı Gazozu Hakkında</h1>
+                <p class="metin">
+                    Aynalı Çarşı Gazozu, Çanakkale'nin gazozu olma iddiası ile kurulmuş bir markadır. Üretim tesislerimiz Muğla'da
+                    bulunan fabrikadır. Aynalı Çarşı Gazozu'nun şu anda sadece "Ballı ve Frambuaz'lı" aroması vardır. 
+                 </p>
+                 <img id="gazoz" src="resimler/gazoz1.jpg" alt="Aynalı Çarşı Gazozu" width="300px" height="300px" 
+                 style="border-width: 3px; border-style: solid; margin-left:25%;">
+                 <button id="buton1"><-----</button> 
+                 <button id="buton2">-----></button> 
+                 <script>
+                    let demoButton = document.getElementById("buton2");
+                    demoButton.addEventListener("click", changeImage1);
 
-                </p>
+                    function changeImage1(){
+                        let gazozImg = document.getElementById("gazoz");
+                        gazozImg.src = "resimler/gazoz2.jpg";
+                    }
+                    let demoButtonNew = document.getElementById("buton1");
+                    demoButtonNew.addEventListener("click", changeImage2);
 
+                    function changeImage2(){
+                        let gazozImg = document.getElementById("gazoz");
+                        gazozImg.src = "resimler/gazoz1.jpg";
+                    }
+                 </script>
             </article>
 
             <aside id="yanmenu">

@@ -1,11 +1,19 @@
-Berke Han Çavdar / 201502048
-
+AD SOYAD/NUMARA/BÖLÜM BİLGİSİ = Berke Han Çavdar / 201502048 / Bilgisayar Mühendisliği 2.sınıf
+------------------------------------------------------------------------------------------------
+ÖDEVİ HANGİ PROGRAMLAR İLE HAZIRLADIM: Visual Studio Code
+------------------------------------------------------------------------------------------------
+ÖDEV HAKKINDA BİLGİLER:
 
 
 18.05.2023:
 
-I have created README and index.html(not finished just created) files and started to make my project.
+Projemi yapmaya başladım. index.html dosyasını ana hatlarıyla oluşturdum.
 
 20.05 2023:
 
-index.html mostly finished without JS,PHP, Databases. I'll add them later. I've created "style.css" file and imported it.
+index.html dosyasını tamamladım sayılır. HTML ve CSS konusunda tamamladım denebilir. JavaScript kodlarını sonradan eklemeyi planlıyorum.
+
+8.06.2023:
+
+Javascript işlemlerine başladım. index.html sayfasından sonra diğer sayfaların da index.html sayfasından kopyalama yöntemi ile yapımına
+başladım ve tamamladım. Elimden bu kadarı gelebildi.

@@ -40,17 +40,34 @@
             </nav>
 
             <article id="icerik">
-                <h1 class="baslik">Kısaca Ben</h1>
-                <p class="metin">2002 yılında Çanakkale'nin Ezine ilçesinde doğdum.
-                    Çocukluğum yine Çanakkale'nin Bayramiç ilçesinde geçti.
-                    Daha sonra Merkez ilçesine taşındık ve lise eğitimimi burada tamamladım. Herkes gibi benim de hayatım
-                    Koronavirüs pandemisi sebebiyle derinden sarsıldı. Üniversite sınavında Bandırma Onyedi Eylül Üniversitesi'nde
-                    Bilgisayar Mühendisliği'ni kazandım. Şu anda 2.sınıfı tamamlamak üzereyim. Kariyerimde hedefim Java, C++,
-                    C# gibi bir dilde ustalaşıp; Oyun geliştiriciliği, yazılım geliştiriciliği gibi üretken bir yolda ilerlemek.
-                    <br><br> Ayrıca 2019 yılının sonundan bu yana hayatıma eşlik eden, sokaktan sahiplendiğim 
-                    bir kedim vardı. Ne yazık ki 4 Haziran 2023 tarihinde vefat etti. Henüz 4 yaşına yeni girecekti. Bir sayfayı onun
-                    anısına ayırıyorum. Umarım gittiği yerde mutludur.
+                <h1 class="baslik">Duman</h1>
+                <p class="metin">
+                    Duman benim 2019 yılından beri kedimdi. Kedi dediğime bakmayın, en yakın dostumdu. Birlikte sayısız anımız 
+                    var Duman ile. 4 Haziran 2023 tarihinde, uzun zamandır savaştığı hastalığına yenik düştü.
+                    Ben de onu anmak için onun fotoğraflarına kendi kişisel websitemde yer vermek istedim çünkü o benim hayatımın
+                    ,henüz o zamanlar anlayamamış olsam da, çok büyük bir kısmını kaplıyormuş. 
+                    
+                    <img id="dumis" src="resimler/duman1.jpeg" alt="Duman" width="250px" height="250px"
+                    style="position: relative; right: 0px; bottom: 0px; margin-left: 30%; border-width:3px; border-style: solid;">
+                    <button id="buton1">Ağzını kapat</button>
+                    <button id="buton2">Ağzını aç</button>
+                    <script>
+                        let demoButton1 = document.getElementById("buton2");
+                        demoButton1.addEventListener("click", changeImage1);
 
+                        function changeImage1(){
+                            let dumisImg = document.getElementById("dumis");
+                            dumisImg.src = "resimler/duman3.jpeg";
+                        }
+                        let demoButton2 = document.getElementById("buton1");
+                        demoButton2.addEventListener("click", changeImage2);
+
+                        function changeImage2(){
+                            let dumisImg = document.getElementById("dumis");
+                            dumisImg.src = "resimler/duman1.jpeg";
+                        }
+
+                    </script>
                 </p>
 
             </article>
